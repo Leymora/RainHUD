@@ -18,7 +18,7 @@
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
-		"HealthDeathWarningColor"	"HUDDeathWarning"
+		"HealthDeathWarningColor"	"ForTesting_Magenta"
 	}	
 	"PlayerStatusHealthImage"
 	{
@@ -86,8 +86,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"HudClassHealth"
-		"fgcolor"		"TanDark"
+		"font"			"EconFontMedium"
+		"fgcolor"		"QuestGold"
 	}								
 	"PlayerStatusBleedImage"
 	{
