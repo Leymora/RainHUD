@@ -190,6 +190,12 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
+		
+		//Custom Colors
+		"CColor"		"0 163 195 255"
+		"CColorD"		"28 158 143 255"
+		"SwegColor"		"0 125 212 255"
+		"SwegColorRED"	"255 65 65 255"	
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
