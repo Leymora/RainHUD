@@ -192,8 +192,8 @@ Scheme
 		"UpgradeDisabledBg"		"79 77 68 255"
 		
 		//Custom Colors
-		"CColor"		"0 163 195 255"
-		"CColorD"		"28 158 143 255"
+		"CColor"		"0 169 0 255"
+		"CColorD"		"255 0 126 255"
 		"SwegColor"		"0 125 212 255"
 		"SwegColorRED"	"255 65 65 255"	
 	}
@@ -2621,6 +2621,16 @@ Scheme
 			{
 				"name"		"Neou-Bold"
 				"tall"		"36"
+				"weight"	"800"
+				"antialias" "1"
+			}
+		}
+		OldSchoolNumbers
+		{
+			"1"
+			{
+				"name"		"OldStyle 1 HPLHS"
+				"tall"		"48"
 				"weight"	"800"
 				"antialias" "1"
 			}
@@ -5156,6 +5166,11 @@ Scheme
 		{
 			"font" "resource/fonts/Neou-Thin.otf"
 			"name" "Neou-Thin"
+		}
+		"9" 
+		{
+			"font" "resource/fonts/OLDSH_.ttf"
+			"name" "OldStyle 1 HPLHS"
 		}
 	}
 }

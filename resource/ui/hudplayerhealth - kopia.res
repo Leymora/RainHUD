@@ -5,7 +5,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"200"		[$WIN32]
+		"xpos"			"100"		[$WIN32]
 		"xpos_minmode"	"-5"		[$WIN32]
 		"ypos"			"r120"	[$WIN32]
 		"ypos_minmode"	"r88"	[$WIN32]
@@ -18,7 +18,7 @@
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
-		"HealthDeathWarningColor"		"CColorD"
+		"HealthDeathWarningColor"	"ForTesting_Magenta"
 	}	
 	"PlayerStatusHealthImage"
 	{
@@ -75,19 +75,20 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"69"
+		"xpos"			"76"
 		"xpos_minmode"	"61"
-		"ypos"			"35"	[$WIN32]
+		"ypos"			"52"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"5"
-		"wide"			"60"
-		"tall"			"48"
+		"wide"			"50"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"OldSchoolNumbers"
-		"fgcolor"		"CColor"
+		"font"			"EconFontMedium"
+		"fgcolor"		"QuestGold"
+	}								
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
