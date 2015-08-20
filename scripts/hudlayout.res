@@ -16,13 +16,10 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"530"	[$WIN32]
-		"xpos_minmode"	"r85"	[$WIN32]
+		"xpos"	"550"	[$WIN32]
 		"ypos"	"400"	[$WIN32]
-		"ypos_minmode"	"r36"	[$WIN32]
-		"xpos"	"r131"	[$X360]
-		"ypos"	"r77"	[$X360]
-		"wide"	"94"
+		"zpos"	"9"
+		"wide"	"130"
 		"tall"	"45"
 	}
 	
@@ -76,14 +73,10 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"355"	[$WIN32]
-		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"375"	[$WIN32]
-		"ypos_minmode"	"r34"	[$WIN32]
-		"xpos"			"r174"	[$X360]
-		"ypos"			"r90"	[$X360]
-		"wide"			"900"
-		"tall"			"3000"
+		"xpos"			"560"	[$WIN32]
+		"ypos"			"400"	[$WIN32]
+		"wide"			"200"
+		"tall"			"300"
 	}
 	
 	HudDemomanCharge
@@ -91,16 +84,11 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"366"	[$WIN32]
+		"ypos"			"420"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
-		"tall"			"8"
+		"wide"			"300"
+		"tall"			"20"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	

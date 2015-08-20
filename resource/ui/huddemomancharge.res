@@ -1,0 +1,48 @@
+"Resource/UI/HudDemomanCharge.res"
+{	
+	"ChargeMeter"
+	{	
+		"ControlName"	"ContinuousProgressBar"
+		"fieldName"		"ChargeMeter"
+		"font"			"Default"
+		"xpos"			"10"
+		"xpos_minmode"	"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"6"				
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"Left"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}	
+	"ChargeLabelDemoMan"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ChargeLabelDemoMan"
+		"xpos"					"33"
+		"ypos"					"2"
+		"zpos"					"2"
+		"wide"					"60"
+		"tall"					"15"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"visible_minmode"		"1"
+		"ypos_minmode"			"0"
+		"xpos_minmode"			"0"
+		"textAlignment_minmode"			"west"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"Sticky Charge"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"TFFontSmall"
+	}
+
+	
+}

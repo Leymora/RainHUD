@@ -309,13 +309,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"c-70"	[$WIN32]
-		"xpos"			"c-60"	[$X360]
-		"ypos"			"r28"	[$WIN32]
-		"ypos"			"r48"	[$X360]
-		"zpos"			"4"
+		"xpos"			"350"	[$WIN32]
+		"zpos"			"99"
 		"wide"			"140"	[$WIN32]
-		"wide"			"120"	[$X360]
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -346,15 +342,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-75"	[$WIN32]
-		"xpos"			"c-70"	[$X360]
-		"ypos"			"r31"	[$WIN32]
-		"ypos"			"r51"	[$X360]
-		"zpos"			"3"
+		"xpos"			"346"	[$WIN32]
+		"ypos"			"-4"	[$WIN32]
+		"zpos"			"99"
 		"wide"			"150"	[$WIN32]
-		"wide"			"140"	[$X360]
 		"tall"			"38"	[$WIN32]
-		"tall"			"35"	[$X360]
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_playingto"
@@ -384,7 +376,7 @@
 		"xpos"			"c-135"
 		"ypos"			"410"	[$WIN32]
 		"ypos"			"r116"	[$X360]
-		"zpos"			"5"
+		"zpos"			"-1"
 		"wide"			"160"
 		"tall"			"90"
 		"visible"		"1"
@@ -424,7 +416,7 @@
 		"xpos"			"c-25"
 		"ypos"			"410"	[$WIN32]
 		"ypos"			"r116"	[$X360]
-		"zpos"			"5"
+		"zpos"			"-1"
 		"wide"			"160"
 		"tall"			"90"
 		"visible"		"1"
