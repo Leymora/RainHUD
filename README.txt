@@ -5,10 +5,10 @@ How to install
 ------------------------------------
 
 1. Unzip RainHUD.zip
+2. Install all the fonts inside RainHUD\resource\fonts
+3. Place the RainHUD folder inside Program Files\Steam\steamapps\common\Team Fortress 2\tf\custom
 
-2. Place the RainHUD folder inside Program Files\Steam\steamapps\common\Team Fortress 2\tf\custom
-
-Please note that on some computers; "Program Files" may look like "Program Files (x86)"
+Please note that on some computers "Program Files" may look like "Program Files (x86)"
 
 Done!
 
