@@ -192,8 +192,8 @@ Scheme
 		"UpgradeDisabledBg"		"79 77 68 255"
 		
 		//Custom Colors
-		"CColor"		"0 202 0 255"
-		"CColorD"		"0 167 255 255"
+		"CColor"		"0 118 255 255"
+		"CColorD"		"255 120 0 255"
 		"SwegColor"		"0 125 212 255"
 		"SwegColorRED"	"255 65 65 255"	
 	}

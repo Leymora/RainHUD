@@ -1,48 +1,56 @@
 "Resource/UI/HudDemomanCharge.res"
 {	
-	"ChargeMeter"
-	{	
-		"ControlName"	"ContinuousProgressBar"
-		"fieldName"		"ChargeMeter"
-		"font"			"Default"
-		"xpos"			"10"
-		"xpos_minmode"	"0"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"100"
-		"tall"			"6"				
-		"autoResize"	"0"
-		"pinCorner"		"0"
+
+	HudDemomanCharge
+	{
+		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
-	}	
+		"x_offset"		"0"
+		"xpos"			"375"
+		"ypos"			"400"
+		"wide"			"100"
+		"tall"			"14"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
+	}
+
 	"ChargeLabelDemoMan"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabelDemoMan"
-		"xpos"					"33"
-		"ypos"					"2"
+		"xpos"					"23"
+		"ypos"					"3"
 		"zpos"					"2"
 		"wide"					"60"
 		"tall"					"15"
-		"autoResize"			"1"
-		"pinCorner"				"2"
 		"visible"				"1"
-		"visible_minmode"		"1"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
-		"textAlignment_minmode"			"west"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"Sticky Charge"
+		"labelText"				"Weapon Charge"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"TFFontSmall"
 	}
 
+	"ChargeMeter"
+	{	
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ChargeMeter"
+		"font"					"Default"
+		"xpos"					"1"
+		"ypos"					"1"
+		"zpos"					"2"
+		"wide"					"100"
+		"tall"					"6"				
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"Left"
+		"dulltext"				"0"
+		"brighttext"			"0"
+	}				
 	
 }

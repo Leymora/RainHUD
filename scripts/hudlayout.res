@@ -73,8 +73,8 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"560"	[$WIN32]
-		"ypos"			"400"	[$WIN32]
+		"xpos"			"355"	[$WIN32]
+		"ypos"			"375"	[$WIN32]
 		"wide"			"200"
 		"tall"			"300"
 	}
