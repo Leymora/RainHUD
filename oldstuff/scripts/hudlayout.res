@@ -16,13 +16,10 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r95"	[$WIN32]
-		"xpos_minmode"	"r85"	[$WIN32]
-		"ypos"	"r55"	[$WIN32]
-		"ypos_minmode"	"r36"	[$WIN32]
-		"xpos"	"r131"	[$X360]
-		"ypos"	"r77"	[$X360]
-		"wide"	"94"
+		"xpos"	"550"	[$WIN32]
+		"ypos"	"400"	[$WIN32]
+		"zpos"	"9"
+		"wide"	"130"
 		"tall"	"45"
 	}
 	
@@ -76,14 +73,10 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r138"	[$WIN32]
-		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"r69"	[$WIN32]
-		"ypos_minmode"	"r34"	[$WIN32]
-		"xpos"			"r174"	[$X360]
-		"ypos"			"r90"	[$X360]
+		"xpos"			"355"	[$WIN32]
+		"ypos"			"375"	[$WIN32]
 		"wide"			"200"
-		"tall"			"100"
+		"tall"			"300"
 	}
 	
 	HudDemomanCharge
@@ -91,16 +84,11 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"366"	[$WIN32]
+		"ypos"			"420"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
-		"tall"			"8"
+		"wide"			"300"
+		"tall"			"20"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
@@ -485,7 +473,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "18"	[$WIN32]
+		"ypos"	 "12"	[$WIN32]
 		"xpos"	 "r672"	[$X360]
 		"ypos"	 "35"	[$X360]
 		"wide"	 "628"
@@ -865,8 +853,6 @@
 		"ypos"					"215"
 		"wide"					"300"
 		"tall"					"300"
-		"zpos"					"4"
-		"proportionaltoparent"	"1"
 	}
 
 	ArenaWinPanel
@@ -1068,7 +1054,7 @@
 		"ypos"					"15"
 		"ypos_lodef"			"75"
 		"wide"					"320"
-		"tall"					"300"
+		"tall"					"245"
 	}
 
 	HudTeamSwitch
@@ -1155,7 +1141,7 @@
 		"ypos_minmode"				"15"
 		"ypos_lodef"				"75"
 		"wide"					"125"
-		"tall"					"70"
+		"tall"					"55"
 	}
 	
 	NotificationPanel
@@ -1443,10 +1429,10 @@
 		"tall"	"f0"
 	}
 
-	"MatchMakingContainer"
+	"QuestLogContainer"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName" 		"MatchMakingContainer"
+		"fieldName" 		"QuestLogContainer"
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"0"
@@ -1454,55 +1440,4 @@
 		"wide"	 		"f0"
 		"tall"	 		"f0"
 	}
-
-	HudSpectatorExtras
-	{
-		"fieldName" "HudSpectatorExtras"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"f0"
-	}
-
-	MatchSummary
-	{
-		"fieldName" "MatchSummary"
-		"visible" "0"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"f0"
-	}
-
-	HudMatchStatus
-	{
-		"fieldName"				"HudMatchStatus"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"3"
-		"wide"					"f0"
-		"tall"					"f0"
-	}
-
-	"QueueHUDStatus"
-	{
-		"fieldName"				"QueueHUDStatus"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"rs1-5"
-		"ypos"					"1"
-		"zpos"					"1001"
-		"wide"					"200"
-		"tall"					"18"
-		"proportionaltoparent"	"1"
-		"keyboardinputenabled"	"1"
-		"mouseinputenabled"		"0"
-		"alpha"					"100"
-	}
 }
-
