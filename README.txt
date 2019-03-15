@@ -1,14 +1,14 @@
-RainHUD - Created by Netaro 2015
+RainHUD - Created by SentimentalWoosh in 2015, redesigned and rewritten in 2019
 
 
 How to install
 ------------------------------------
 
 1. Unzip RainHUD.zip
-2. Install all the fonts inside RainHUD\resource\fonts
-3. Place the RainHUD folder inside Program Files\Steam\steamapps\common\Team Fortress 2\tf\custom
+2. Install all the fonts inside rainhud\resource\font
+3. Place the rainhud folder inside Program Files\Steam\steamapps\common\Team Fortress 2\tf\custom
 
-Please note that on some computers "Program Files" may look like "Program Files (x86)"
+Please note that on some computers "Program Files" may be named "Program Files (x86)"
 
 Done!
 
